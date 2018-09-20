@@ -1,9 +1,11 @@
 /*
  * Program: Caesar
- * Description:
+ * Description: Program will get a key (integer) from the user and rotate each character of a plaintext
+ *              message by that amount, wrapping around. Capitals should remain, as lowercase remains 
+ *              and punctuation.
  *
- * Usage Instructions:
- *
+ * Usage Instructions: 
+ *                      
  *
  * Usage Examples:
  *
