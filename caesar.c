@@ -21,15 +21,17 @@
 int main(int argc, string argv[])
 
 {
-    if (argc == 2)
+    if (argc == 2)  // make sure there is a command line argument.
     {
-        int k = atoi(argv[1]);
-        printf("key is: %i\n", k);
+        int k = atoi(argv[1]);      // turn string into an int using a standard c library
+        eprintf("key is: %i\n", k);  // debug code - remove later
     }
     else
     {
-        printf("No command argument given.\n");
+        printf("No command argument, or too many given.\nPlease enter 1 command argument as an positive integer");     // user gave no command line arguments or gave too many
         return 1;
     }
-    eprintf("out of if statement\n");
+    eprintf("out of if statement\n");  //debug code - remove later
+    // get user's plaintext here.
+
 }
