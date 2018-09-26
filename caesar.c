@@ -28,7 +28,7 @@ int main(int argc, string argv[])
     }
     else
     {
-        printf("No command argument, or too many given.\nPlease enter 1 command argument as an positive integer");     // user gave no command line arguments or gave too many
+        printf("No command argument, or too many given.\nPlease enter 1 command argument as an positive integer\n");     // user gave no command line arguments or gave too many
         return 1;
     }
     eprintf("out of if statement\n");  //debug code - remove later
